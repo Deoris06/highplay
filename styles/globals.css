@@ -39,4 +39,21 @@ html{
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: #046E1B;
+  color: white;
+  cursor: pointer;
+}
+.carousel-caption {
+	bottom: 1.25rem !important;
+	text-align: start !important;
+}
+
+@media (min-width: 768px){
+    .ms-md-5 {
+      margin-left: 11rem !important;
+    }
 }
