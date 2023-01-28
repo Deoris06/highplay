@@ -1,6 +1,6 @@
-import '/styles/globals.css'
 import Head from 'next/head'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '/styles/globals.css'
 import Script from 'next/script';
 export default function App({ Component, pageProps }) {
 

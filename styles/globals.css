@@ -1,5 +1,42 @@
 body{
   font-family: 'Lato', sans-serif !important;
-  font: 99%;
   overflow-x: hidden;
+  font-size: 14px;
+}
+html{
+  font: 84% !important;
+}
+
+.my-primary-bg{
+  background-color: #D19813;
+}
+.my-primary-color{
+  color: #D19813;
+}
+
+.my-secondary-bg{
+  background-color: #046E1B;
+}
+.my-secondary-color{
+  color: #046E1B;
+}
+.button{
+  background-color: #D19813;
+  font-size: 14px;
+  padding: 15px 25px 15px 27px !important;
+  text-transform: uppercase;
+  line-height: 1;
+  text-decoration: none;
+  color: white;
+}
+.circle{
+  /* display: inline-block; */
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
