@@ -23,7 +23,7 @@ export default function Home(args) {
     <>
       <nav className="navbar navbar-expand-lg bg-white border-bottom">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">YMDB</a>
+          <a className="navbar-brand text-warning" href="#">YMDB</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
